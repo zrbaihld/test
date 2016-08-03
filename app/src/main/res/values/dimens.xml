@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_height">50dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="ztl_height">40dp</dimen>
+    <dimen name="djm_height">60dp</dimen>
+    <dimen name="buluo_height">50dp</dimen>
+    <dimen name="jg_height">1dp</dimen>
+    <dimen name="yz_wide">200dp</dimen>
+    <dimen name="moren_buluo_height">90dp</dimen>
+
+</resources>

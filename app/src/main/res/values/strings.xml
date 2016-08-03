@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Zhuanche788</string>
+    <string name="loading">正在加载</string>
+    <string name="copy_right">Copyright © 2014-? </string>
+    <string name="back">返回</string>
+    <string name="load_error">数据加载失败</string>
+    <string name="no_network">世上最遥远的距离是没有网络 请检查您的网络啦</string>
+    <string name="tab1">我的部落</string>
+    <string name="tab2">觅食</string>
+    <string name="tab3">申请部落</string>
+    <string name="qr_scan">请把二维码对准取餐机摄像头</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="baidusdk">GaGUqW3DO5VM1tlvhDpWZzmmasTEjGON</string>
+</resources>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.zhuanche.zhuanche788"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-v4:24.0.0'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/baidumapapi_base_v3_7_3.jar')
+    compile files('libs/baidumapapi_cloud_v3_7_3.jar')
+    compile files('libs/baidumapapi_map_v3_7_3.jar')
+    compile files('libs/baidumapapi_radar_v3_7_3.jar')
+    compile files('libs/baidumapapi_search_v3_7_3.jar')
+    compile files('libs/baidumapapi_util_v3_7_3.jar')
+    compile files('libs/fastjson-1.2.3.jar')
+    compile files('libs/glide-3.6.1.jar')
+    compile files('libs/jpush-sdk-release1.7.3.jar')
+    compile files('libs/locSDK_6.13.jar')
+    compile files('libs/mframework.jar')
+    compile files('libs/httpclient-4.2.5.jar')
+    compile files('libs/httpclient-cache-4.2.5.jar')
+    compile files('libs/httpcore-4.2.4.jar')
+    compile files('libs/httpmime-4.2.5.jar')
+}

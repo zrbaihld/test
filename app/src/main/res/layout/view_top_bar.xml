@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tib="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_bar_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_height"
+    android:background="@color/main_blue"
+    android:orientation="vertical" >
+
+    <com.zhuanche.zhuanche788.view.TextImageButton
+        android:id="@+id/top_bar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:minWidth="@dimen/tab_height"
+        android:src="@drawable/common_transparent_click_bg"
+        tib:textColor="@color/top"
+        tib:textSize="16sp" >
+    </com.zhuanche.zhuanche788.view.TextImageButton>
+
+    <com.zhuanche.zhuanche788.view.TextImageButton
+        android:id="@+id/top_bar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/common_transparent_click_bg"
+        android:minWidth="@dimen/tab_height"
+        tib:textColor="@color/top"
+        tib:textSize="15sp" >
+    </com.zhuanche.zhuanche788.view.TextImageButton>
+
+    <com.zhuanche.zhuanche788.view.TextImageButton
+        android:id="@+id/top_bar_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:minWidth="@dimen/tab_height"
+        tib:textColor="@color/white"
+        tib:textSize="18sp" >
+    </com.zhuanche.zhuanche788.view.TextImageButton>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        layout="@layout/common_line" />
+
+</RelativeLayout>

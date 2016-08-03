@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_grey"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_camer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tab_height"
+        android:gravity="center"
+        android:text="拍照"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        style="@style/common_line"
+        android:background="@color/title" />
+
+    <TextView
+        android:id="@+id/dialog_phote"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tab_height"
+        android:gravity="center"
+        android:text="本地相册"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        style="@style/common_line"
+        android:background="@color/title" />
+
+    <TextView
+        android:id="@+id/dialog_cannal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tab_height"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
